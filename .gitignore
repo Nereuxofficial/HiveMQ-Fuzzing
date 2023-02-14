@@ -12,3 +12,7 @@ out/
 
 .java-version
 .DS_Store
+.cifuzz-build
+.vscode
+bin
+.idea

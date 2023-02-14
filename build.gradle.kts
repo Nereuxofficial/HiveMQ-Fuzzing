@@ -160,6 +160,8 @@ dependencies {
 
 dependencies {
     testImplementation("junit:junit:${property("junit.version")}")
+    testImplementation ("org.junit.jupiter", "junit-jupiter","5.9.0")
+    testImplementation ("com.code-intelligence", "jazzer-junit","0.13.0")
     testImplementation("org.mockito:mockito-core:${property("mockito.version")}")
     testImplementation("nl.jqno.equalsverifier:equalsverifier:${property("equalsverifier.version")}")
     testImplementation("net.jodah:concurrentunit:${property("concurrentunit.version")}")
